@@ -1,0 +1,15 @@
+DividendStock.java:5: cannot find symbol
+symbol  : constructor Stock()
+location: class Stock
+    public DividendStock(String symbol) {
+                                        ^
+DividendStock.java:6: symbol has private access in Stock
+        this.symbol = symbol;
+        ^
+DividendStock.java:7: numShares has private access in Stock
+        this.numShares = 0;
+        ^
+DividendStock.java:8: totalCost has private access in Stock
+        this.totalCost = 0.00;
+        ^
+4 errors

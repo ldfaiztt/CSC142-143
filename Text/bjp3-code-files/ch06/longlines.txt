@@ -1,0 +1,6 @@
+In chapter 4 we saw how to construct a Scanner object to 
+read input from the Console.  Now we will see how to construct Scanner objects to read input from
+files.  The idea is fairly straightforward, but Java
+does not make it easy to read from input files.  This is unfortunate because many interesting problems can be formulated as file processing tasks.  Many introductory computer science classes have abandoned file processing altogether or the topic has moved into the second course because it is considered too advanced for novices.
+
+There is nothing intrinsically complex about file processing.  The languages C++ and C# provide mechanisms for easily reading and writing files.  But Java was not designed for file processing and Sun has not been particularly eager to provide a simple solution.  They did, however, introduce the Scanner class as a way to simplify some of the details associated with reading files.  The result is that file reading is still awkward in Java, but at least the level of detail is manageable.

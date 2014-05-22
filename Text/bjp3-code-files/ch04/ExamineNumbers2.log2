@@ -1,0 +1,12 @@
+This program examines a sequence of numbers to
+find the average as well as counting how many
+are negative.
+
+How many numbers do you want me to examine? 4
+    #1? 2.1
+    #2? -3.8
+    #3? 5.4
+    #4? 7.4
+
+average = 2.7750000000000004
+# of negatives = 1

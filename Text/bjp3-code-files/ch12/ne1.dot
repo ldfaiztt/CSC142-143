@@ -1,0 +1,14 @@
+digraph {
+    "start" -> "N"
+        "N" -> "N N"
+        "N" -> "N E"
+        "N" -> "N NE"
+    "start" -> "E"
+        "E" -> "E N"
+        "E" -> "E E"
+        "E" -> "E NE"
+    "start" -> "NE"
+        "NE" -> "NE N"
+        "NE" -> "NE E"
+        "NE" -> "NE NE"
+}

@@ -1,0 +1,10 @@
+digraph {
+    "empty" -> "col 1\nrow 1"
+    "empty" -> "col 1\nrow 2"
+    "empty" -> "col 1\nrow 3"
+    "empty" -> "col 1\nrow 4"
+    "empty" -> "col 1\nrow 5"
+    "empty" -> "col 1\nrow 6"
+    "empty" -> "col 1\nrow 7"
+    "empty" -> "col 1\nrow 8"
+}

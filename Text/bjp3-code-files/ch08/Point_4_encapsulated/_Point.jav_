@@ -1,0 +1,34 @@
+// A Point object represents an ordered pair of (x, y) coordinates.
+// Fourth version: encapsulated.
+
+public class Point {
+    private int x;
+    private int y;
+
+    // Constructs a Point object with the given x and y coordinates.
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    // Returns the direct distance between this Point and the origin (0, 0).
+    public double distanceFromOrigin() {
+        return Math.sqrt(this.x * this.x + this.y * this.y);
+    }
+    
+    // Returns the x-coordinate of this Point.
+    public int getX() {
+        return this.x;
+    }
+    
+    // Returns the y-coordinate of this Point.
+    public int getY() {
+        return this.y;
+    }
+    
+    // Shifts the position of this Point object by the given amount
+    // in each direction.
+    public void translate(int dx, int dy) {
+        this.setLocation(this.x + dx, this.y + dy);
+    }
+}

@@ -1,0 +1,25 @@
+Next int (0 to quit)? 42
+Next int (0 to quit)? 9
+Next int (0 to quit)? 18
+Next int (0 to quit)? 55
+Next int (0 to quit)? 7
+Next int (0 to quit)? 108
+Next int (0 to quit)? 4
+Next int (0 to quit)? 70
+Next int (0 to quit)? 203
+Next int (0 to quit)? 15
+Next int (0 to quit)? 0
+
+Tree Structure:
+            203
+        108
+            70
+    55
+42
+        18
+            15
+    9
+        7
+            4
+Sorted list:
+4 7 9 15 18 42 55 70 108 203 

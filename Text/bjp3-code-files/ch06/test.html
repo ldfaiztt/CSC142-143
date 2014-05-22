@@ -1,0 +1,60 @@
+<!Doctype HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Reges/Stepp, Building Java Programs, Chapter 6</title>
+</head><p>
+
+<style type="text/css">
+</style><p>
+
+<body>
+<center><h1>
+Chapter 6<br>
+File Processing<br>
+</h1>
+Copyright &copy; 2005 by Stuart Reges and Marty Stepp
+</center><p>
+
+<h2>6.1 Introduction</h2><p>
+
+In chapter 4 we saw how to construct a Scanner object to read input from the
+Console.  Now we will see how to construct Scanner objects to read input from
+files.  The idea is fairly straightforward, but Java does not make it easy to
+read from input files.  This is unfortunate because many interesting problems
+can be formulated as file processing tasks.  Many introductory computer science
+classes have abandoned file processing altogether or the topic has moved into
+the second course because it is considered too advanced for novices.<p>
+
+There is nothing intrinsically complex about file processing.  The languages
+C++ and C# provide mechanisms for easily reading and writing files.  But Java
+was not designed for file processing and Sun has not been particularly eager to
+provide a simple solution.  They did, however, introduce the Scanner class as a
+way to simplify some of the details associated with reading files.  The result
+is that file reading is still awkward in Java, but at least the level of detail
+is manageable.<p>
+
+Before we can write a file processing program, we have to explore some issues
+related to Java exceptions.  Remember that exceptions are errors that halt the
+execution of a program.  In the case of file processing, we might try to open a
+file that doesn't exist, which would generate an exception.
+
+<h2>6.2 Using a Scanner to Read an External File</h2><p>
+
+An external file is a collection of characters and numbers that appear on one
+or more lines.  They are external because they are not contained within the
+program and are not obtained from the user during execution.  They are outside
+the scope of the program and its execution.  You create external input files
+before the execution of a program.  For example, you might create a file called
+"numbers.dat" with the following content.<p>
+
+<blockquote>
+<xmp>308.2 14.9 7.4
+2.8
+
+
+3.9 4.7 -15.4
+2.8
+
+</xmp>
+</blockquote>
+</body>
+</html>

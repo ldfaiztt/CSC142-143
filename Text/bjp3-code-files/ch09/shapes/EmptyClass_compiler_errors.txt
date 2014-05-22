@@ -1,0 +1,4 @@
+EmptyClass.java:2: EmptyClass is not abstract and does not override abstract method getPerimeter() in Shape
+public class EmptyClass implements Shape {
+       ^
+1 error

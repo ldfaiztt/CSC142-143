@@ -1,0 +1,35 @@
+Name (blank to quit)? Leonard
+Name (blank to quit)? Sheldon
+Name (blank to quit)? Howard
+Name (blank to quit)? Penny
+Name (blank to quit)? Raj
+Name (blank to quit)? Leslie
+Name (blank to quit)? Ma
+Name (blank to quit)? 
+
+Alphabetized list:
+Howard
+Leonard
+Leslie
+Ma
+Penny
+Raj
+Sheldon
+
+Next int (0 to quit)? 38
+Next int (0 to quit)? 19
+Next int (0 to quit)? -47
+Next int (0 to quit)? 2
+Next int (0 to quit)? 42
+Next int (0 to quit)? 13
+Next int (0 to quit)? 9
+Next int (0 to quit)? 0
+
+Sorted list:
+-47
+2
+9
+13
+19
+38
+42

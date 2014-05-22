@@ -1,0 +1,14 @@
+digraph {
+    "start: (0, 0)" -> "N: (0, 1)"
+        "N: (0, 1)" -> "N N: (0, 2)"
+        "N: (0, 1)" -> "N E: (1, 1)"
+"N E: (1, 1)" [color=blue fontcolor=red]
+        "N: (0, 1)" -> "N NE: (1, 2)"
+    "start: (0, 0)" -> "E: (1, 0)"
+        "E: (1, 0)" -> "E N: (1, 1)"
+"E N: (1, 1)" [color=blue fontcolor=red]
+        "E: (1, 0)" -> "E E: (2, 0)"
+        "E: (1, 0)" -> "E NE: (2, 1)"
+    "start: (0, 0)" -> "NE: (1, 1)"
+"NE: (1, 1)" [color=blue fontcolor=red]
+}

@@ -1,0 +1,3 @@
+p = java.awt.Point[x=2,y=8]
+q = java.awt.Point[x=-7,y=-14]
+now p = java.awt.Point[x=-7,y=-14]
